@@ -8,7 +8,7 @@
 #include <string>
 
 bool f(char input[], char result[]) {
-	int l = strlen(input) - 1;
+	int l = strlen(input);
 	if (l < 2) return false;
 
 	int sp1 = 0, sp2 = 1;
