@@ -21,7 +21,7 @@ bool f(char input[], char result[]) {
 	int ap1;
 	int sl = 1;
 
-	whiel (sp1 < l) {
+	while (sp1 < l) {
 		c1 = input[sp1];
 		c2 = input[sp2++];
 		while ((sp2 < l) && (input[sp2] == c1 || input[sp2] == c2)) sp2++;
